@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
   password: string='';
   type: string='';
   links: string='';
+  name: string='';
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
